@@ -4,7 +4,6 @@
  We are makeing a simple calculator. 
  It will add, subtract, divide and multiply
  code was by RMS100090
- Keegan killian and Ben Glaspie
 
 */
 
@@ -141,7 +140,7 @@ void loop()
                         lcd.clear();
                         chk_init = 1;}
                     //Serial.println(input_num);
-                    time = millis();
+                    time = (min);
                   
                     if(!digit4_sum_1) val=0;
                                       
